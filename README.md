@@ -1,0 +1,2 @@
+﻿# CatchUp Platform (catch-up-platform)
+CatchUp Platform is an open-source project designed to facilitate seamless communication and collaboration among users. It provides a robust set of features to help individuals and teams stay connected and organized.
