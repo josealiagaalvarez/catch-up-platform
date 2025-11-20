@@ -1,9 +1,9 @@
 ﻿using CatchUpPlatform.News.Domain.Model.Aggregates;
 using CatchUpPlatform.News.Domain.Model.Queries;
 
-namespace CatchUpPlatform.News.Domain.Repositories;
+namespace CatchUpPlatform.Shared.Domain.Services;
 
-public interface IFavoriteQueryService
+public interface IFavoriteSourceQueryService
 {
     Task<IEnumerable<FavoriteSource?>> Handle(GetAllFavoriteSourceByNewsApiKeyQuery query);
     Task<FavoriteSource?> Handle(GetFavoriteSourceByNewsApiKeyAndSourceIdQuery query);
